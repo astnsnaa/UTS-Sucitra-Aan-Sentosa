@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">🏍️ MOGE</string>
+
+
+    <string name="this_activity">Ini activity</string>
+    <string name="this_fragment">Ini fragment</string>
+    <string name="search">Search</string>
+    <string name="menu_1">Menu 1</string>
+    <string name="about">about</string>
+    <string name="loginn">Ini fragment Login untuk user</string>
+
+    <string name="search_hint">Masukkan kata</string>
+    <string name="motor_name">Tipe Motor</string>
+    <string name="description">Deskripsi</string>
+
+    <string-array name="data_name">
+        <item>Kawasaki Ninja H2</item>
+        <item>Kawasaki Ninja 250SL</item>
+        <item>Kawasaki New Ninja 650</item>
+        <item>Suzuki GSX-S750 ABS</item>
+        <item>Suzuki GSX1300R Hayabusa</item>
+        <item>Suzuki V-Strom 1050</item>
+        <item>Yamaha All New R1M</item>
+        <item>Yamaha MT09</item>
+        <item>Honda CMX 500 Rebel</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Ninja H2 menampilkan power dari mesin hypersport supercharged Kawasaki
+yang mencengangkan. Dilengkapi dengan mesin supercharged 998 cc In-Line Four,
+elektronik yang canggih, dan rem Brembo terbaru, Ninja H2 memberikan performa
+terbaik di jalan raya.</item>
+        <item>Kawasaki dengan bangga memperkenalkan sebuah model sport di arena yang sangat
+kompetitif, yaitu kelas sport 250cc. Dibentuk dengan gaya Ninja baru yang tajam,
+Ninja 250SL baru memberikan performa lebih hebat dibanding pendahulunya dengan mesin
+baru yang lebih bertenaga, dan juga dengan bobot yang lebih ringan.</item>
+        <item>Kawasaki Ninja 650 adalah motor Moge 650 cc yang di produksi oleh perusahaan Kawasaki
+yang didesain dengan memiliki tampilan yang sporty dengan body bongsor yang menjadi
+ciri khas motor moge 2 silinder dari kawasaki ini. Memiliki kapasitas mesin sebesar 649cc. </item>
+        <item>Hadir sebagai big bike yang menyasar kelas menengah, Suzuki GSX-S750 ABS ini hadir
+dengan tampilan yang begitu gagah dan garang. Suzuki GSX-S750 ABS akan dibekali mesin
+DOHC 4 Silinder dengan volume atau kapasitas hingga 749 cc yang siap memberikan tenaga
+dorong yang begitu dahsyat.</item>
+        <item>Suzuki GSX1300R Hayabusa adalah suatu sepeda motor hyper sport yang dikeluarkan oleh
+Suzuki pada tahun 1999. Beliau digerakkan oleh mesin 4 silinder segaris 1340 cc dan
+telah menjadi sepeda motor produksi massal tercepat di dunia.</item>
+        <item>Suzuki V-Strom 1050 2021 dibekali mesin 1.037 cc, DOHC, 90 derajat V-twin, dan
+pendingin cairan. Tenaga yang dihasilkan mesin tersebut sebesar 107,4 PS pada 8.500
+rm dan 100 Nm pada 6.000 rpm. Keseluruhan tenaga ini dipadu transmisi 6-percepatan,
+lengkap dengan assist and slipper clutch.</item>
+        <item>R1M digerakkan oleh mesin 998 cc dengan transmisi 6-Kecepatan. Yamaha R1M memiliki
+tinggi jok 860 mm dengan bobot 199 kg. Rem depan menggunakan Cakram Ganda, sedangkan
+di belakang Disc. Lebih dari 3 pengguna telah memberikan penilaian untuk R1M
+berdasarkan fitur, jarak tempuh, kenyamanan tempat duduk dan kinerja mesin. Pesaing
+terdekat Yamaha R1M adalah R1, Ninja H2, S 1000 RR dan S 1000 XR.</item>
+        <item>Mesin Yamaha MT 09 2021 naik dari yang semula 847cc menjadi 889c. Masih menggunakan
+konfigurasi yang sama yakni liquid-cooled, DOHC, inline 3-cylinder; 4 valves per
+cylinder Hadirnya mesin baru juga turut mendongkrak tenaga dari 84,6 kW (115PS)
+menjadi 87,5 kW (119 PS). Begitu juga dengan torsi dari 87,5 Nm menjadi 93 Nm.</item>
+        <item>Honda CMX500 Rebel merupakan sebuah moge bergaya cruiser yang menggabungkan antara
+desain klasik dan modern. Setiap sisinya terlihat macho dengan frame bertipe Steel
+Diamond. Sedangkan dimensinya memiliki ukuran panjang 2.188 mm, lebar 820 mm, dan
+ketinggian 1.094 mm. Selain itu, moge ini memiliki jarak sumbu berukuran 1.488 mm dan
+jarak terendah ke tahan 1.488 mm.</item>
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/kawasaki_h2</item>
+        <item>@drawable/kawasaki_250sl</item>
+        <item>@drawable/kawasaki_ninja650</item>
+        <item>@drawable/suzuki_gsxs750</item>
+        <item>@drawable/suzuki_gsx1300rhayabusa</item>
+        <item>@drawable/suzuki_vstrom1050</item>
+        <item>@drawable/yamaha_r1m</item>
+        <item>@drawable/yamaha_mt09</item>
+        <item>@drawable/honda_cmx500rebel</item>
+    </integer-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
