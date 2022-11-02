@@ -1,22 +1,23 @@
 package com.aan.uts_20753033_sucitraaansentosa;
 
+import android.content.Intent;
+
 import android.content.res.TypedArray;
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-
 import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayList;
 
-public class HomeFragment extends Fragment {
+public class HomeFragment extends Fragment implements ListMotorAdapter.ItemClickListener{
     private RecyclerView rvMotor;
     private ArrayList<Motor> list = new ArrayList<>();
 
@@ -56,13 +57,18 @@ public class HomeFragment extends Fragment {
 
     private void showRecyclerList() {
         rvMotor.setLayoutManager(new LinearLayoutManager(getContext()));
-        ListMotorAdapter listMotorAdapter = new ListMotorAdapter(list);
+        ListMotorAdapter listMotorAdapter = new ListMotorAdapter(list, this::selectedItem);
         rvMotor.setAdapter(listMotorAdapter);
     }
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_home, container, false);
+    }
+
+    @Override
+    public void selectedItem(Motor motor) {
+        startActivity(new Intent(getContext(), MotorActivity.class).putExtra("data", motor));
     }
 
 }

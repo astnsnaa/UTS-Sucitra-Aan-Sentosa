@@ -15,9 +15,16 @@ import java.util.ArrayList;
 public class ListMotorAdapter extends RecyclerView.Adapter<ListMotorAdapter.ListViewHolder> {
 
     private ArrayList<Motor> listMotor;
+    public ItemClickListener itemClickListener;
 
-    public ListMotorAdapter(ArrayList<Motor> list) {
+    public interface ItemClickListener {
+        void selectedItem(Motor motor);
+    }
+
+    public ListMotorAdapter(ArrayList<Motor> list, ItemClickListener itemClickListener) {
         this.listMotor = list;
+        this.itemClickListener = itemClickListener;
+
     }
 
     @NonNull
@@ -34,10 +41,11 @@ public class ListMotorAdapter extends RecyclerView.Adapter<ListMotorAdapter.List
         holder.tvName.setText(motor.getName());
         holder.tvDescription.setText(motor.getDescription());
 
-        holder.itemView.setOnClickListener(v -> {
-            Toast.makeText(holder.itemView.getContext(), "Kamu Memilih Motor "
-                            + listMotor.get(holder.getAdapterPosition()).getName(),
-                    Toast.LENGTH_SHORT).show();
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                itemClickListener.selectedItem(motor);
+            }
         });
     }
 

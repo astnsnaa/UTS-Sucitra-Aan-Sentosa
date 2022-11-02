@@ -76,5 +76,9 @@ jarak terendah ke tahan 1.488 mm.</item>
     </integer-array>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
+    <string name="nama_motor">Kawasaki Ninja H2</string>
+    <string name="desk_motor">Ninja H2 menampilkan power dari mesin hypersport supercharged Kawasaki
+        yang mencengangkan. Dilengkapi dengan mesin supercharged 998 cc In-Line Four,
+        elektronik yang canggih, dan rem Brembo terbaru, Ninja H2 memberikan performa
+        terbaik di jalan raya.</string>
 </resources>
